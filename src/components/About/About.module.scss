@@ -1,0 +1,22 @@
+.about {
+  grid-row: 2 / span 1;
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+
+  &-cards {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    grid-gap: 20px;
+  }
+}
+
+.card {
+  height: 200px;
+  text-align: center;
+  .card-icon {
+    font-size: 4em;
+  }
+}

@@ -1,0 +1,14 @@
+.services {
+  grid-column: 1 / -1;
+  grid-row: 3 / span 1;
+  display: flex;
+  flex-direction: column;
+
+  &-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fit, 1fr);
+    justify-items: center;
+    grid-gap: 10px;
+  }
+}

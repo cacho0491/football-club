@@ -1,0 +1,11 @@
+.footer {
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+  }
+}
