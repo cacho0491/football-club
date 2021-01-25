@@ -16,23 +16,23 @@ const useStyles = makeStyles({
 const Footer = () => {
   const classes = useStyles()
   return (
-    <AppBar className={classes.root}>
-      <footer className={footerStyles.footer}>
-        <Typography variant="h5">Contact us</Typography>
-        <div className={footerStyles.footerContent}>
-          <div className={footerStyles.footerContact}>
-            <Typography variant="body1">Football Club</Typography>
-            <WhatsApp />
-            <Instagram />
-            <Facebook />
-          </div>
-          <div className={footerStyles.footerInfo}>
-            <p>Football Club Copyrights &copy; 2020</p>
-            <p>Carlos Correa</p>
-          </div>
+    // <AppBar className={classes.root}>
+    <footer className={footerStyles.footer}>
+      <Typography variant="h5">Contact us</Typography>
+      <div className={footerStyles.footerContent}>
+        <div className={footerStyles.footerContact}>
+          <Typography variant="body1">Football Club</Typography>
+          <WhatsApp />
+          <Instagram />
+          <Facebook />
         </div>
-      </footer>
-    </AppBar>
+        <div className={footerStyles.footerInfo}>
+          <p>Football Club Copyrights &copy; 2020</p>
+          <p>Carlos Correa</p>
+        </div>
+      </div>
+    </footer>
+    // </AppBar>
   )
 }
 
